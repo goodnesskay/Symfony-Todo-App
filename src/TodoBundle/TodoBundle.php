@@ -1,9 +1,9 @@
 <?php
 
-namespace AppBundle;
+namespace TodoBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class AppBundle extends Bundle
+class TodoBundle extends Bundle
 {
 }
