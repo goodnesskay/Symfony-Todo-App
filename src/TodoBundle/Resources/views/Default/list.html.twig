@@ -2,16 +2,21 @@
 
 {% block body %}
     <div class="container">
+        <hr>
         <div class="row">
             <div class="col-md-6 col-md-offset-2">
-                <h1 class="text-center">To do list created successfully</h1>
+                {% for flashMessage in app.session.flashbag.get('alert') %}
+                    <div class="alert alert-success">
+                        <h1 class="text-center"> {{ flashMessage }}</h1>
+                    </div>
+                {% endfor %}
             </div>
         </div>
         <div class="row">
             <div class="col-md-6 col-md-offset-2">
                 <h3 class="text-center">List To-do Here</h3>
                 {% for todo in todos %}
-                    <p>{{ todo.title }}</p>
+                    <p>{{ todo.title }} ==> <a href="{{ path('todo_delete', {'id':  todo.id  }) }}">Delete</a></p>
                 {% endfor %}
             </div>
             <a href="{{ path('todo_create') }}" class="btn btn-success btn-md"> Add to ToDo</a>

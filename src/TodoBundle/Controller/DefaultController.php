@@ -53,4 +53,29 @@ class DefaultController extends Controller
             'todos' => $todos
         ]);
     }
+
+
+    /**
+     * @Route("/todo/delete/{id}", name="todo_delete", requirements={"id" = "\d+"}, defaults={"id" = 0})
+     */
+    public function deleteAction($id)
+    {
+
+        $em = $this->getDoctrine()->getManager();
+        $todo = $em->getRepository('TodoBundle:Todo')->find($id);
+
+        if (!$todo) {
+            throw $this->createNotFoundException(
+                'No todo found for id '.$id
+            );
+        } else {
+            $em->remove($todo);
+            $em->flush();
+            $this->get('session')->getFlashBag()->add(
+                'alert',
+                'Todo Deleted!'
+            );
+            return $this->redirect($this->generateUrl('todo_list'));
+        }
+    }
 }

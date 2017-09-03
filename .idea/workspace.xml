@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4dfffe3-83d2-4f60-9135-f0dd1faac2bd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TodoBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/TodoBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TodoBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/TodoBundle/Resources/views/Default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TodoBundle/Resources/views/Default/list.html.twig" afterPath="$PROJECT_DIR$/src/TodoBundle/Resources/views/Default/list.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +17,8 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TodoBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+            <state relative-caret-position="363">
+              <caret line="57" column="4" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="79" selection-end-column="5" />
               <folding>
                 <element signature="e#41#98#0#PHP" expanded="true" />
               </folding>
@@ -31,8 +29,8 @@
       <file leaf-file-name="list.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TodoBundle/Resources/views/Default/list.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="95" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="7" column="70" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -206,12 +204,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1504342419069</updated>
-      <workItem from="1504342420396" duration="14503000" />
+      <workItem from="1504342420396" duration="16211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14503000" />
+    <option name="totallyTimeSpent" value="16211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="292" y="52" width="1857" height="1092" extended-state="6" />
@@ -329,8 +327,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TodoBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+        <state relative-caret-position="363">
+          <caret line="57" column="4" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="79" selection-end-column="5" />
           <folding>
             <element signature="e#41#98#0#PHP" expanded="true" />
           </folding>
@@ -339,8 +337,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TodoBundle/Resources/views/Default/list.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="95" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="7" column="70" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
