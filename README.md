@@ -1,4 +1,19 @@
-todo-app
+Todo-app
 ========
 
-A Symfony project created on August 21, 2017, 12:57 am.
+> A Todo Application built with Symfony 3.
+
+## Guide To Using Repository
+- Clone repository
+- run `composer update`
+- Fire up the Application
+
+
+Don't forget to star this repository
+
+I love you!!!
+
+Your Friend,
+Goodness Kayode | Pusher of Codes
+
+
