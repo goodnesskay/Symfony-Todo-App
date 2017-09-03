@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-2">
+                <h1 class="text-center">To do list created successfully</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-2">
+                <h3 class="text-center">List To-do Here</h3>
+                {% for todo in todos %}
+                    <p>{{ todo.title }}</p>
+                {% endfor %}
+            </div>
+            <a href="{{ path('todo_create') }}" class="btn btn-success btn-md"> Add to ToDo</a>
+        </div>
+
+    </div>
+{% endblock %}
